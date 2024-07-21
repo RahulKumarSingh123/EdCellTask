@@ -1,0 +1,75 @@
+.circle {
+    height: 22px;
+    width: 22px;
+    border-radius: 11px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    background-color: white;
+    width: 34px;
+    border-radius: 4px;
+    height: 3px;
+}
+
+#headingContainer h1 {
+    font-family: Poppins;
+}
+
+#container p {
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+#up {
+    color: white;
+    font-weight: "500";
+}
+
+#down {
+    color: #F7982A;
+    font-size: 40px;
+}
+
+#border {
+    border: solid #F7982A 2px;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 5%;
+}
+
+#color {
+    color: #F7982A;
+    font-weight: 400;
+}
+
+#container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.678);
+    gap: 5px;
+    color: white;
+    border-style: dashed;
+    border-color: #F7982A;
+    border-radius: 9px;
+    border-width: 1px;
+    padding: 6px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#bottom div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

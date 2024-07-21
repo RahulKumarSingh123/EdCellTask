@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#screen {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./images/silicon.jpg"), url("./images/Gradient.png");
+    background-attachment: fixed, fixed;
+    background-size: cover, cover;
+    background-blend-mode: overlay;
+}
+
+#navContainer {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+#nav {
+    height: 89px;
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    margin: 50px 103.5px 50px 103.5px;
+    border-radius: 15px;
+}
+
+#logo {
+    height: 65px;
+    width: 65px;
+}
+
+#register {
+    height: 35px;
+    width: 98px;
+    background-color: #C67920;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#register:hover {
+    cursor: pointer;
+    scale: 1.01;
+}
+
+#nav h4 {
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+#navItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 39px;
+    margin: 0px 110px 0px 110px;
+}
+
+#contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
