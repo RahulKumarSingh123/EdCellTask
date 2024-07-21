@@ -1,1 +1,60 @@
-<h1>Hii</h1>
+<div id="border">
+    <div id="headingContainer">
+        <h1 id="up">Details of</h1>
+        <h1 id="down">TEAM LEADER</h1>
+    </div>
+    <div>
+        <form method="post" action="/eventdetails">
+        <div id="container1">
+            <div class="content1">
+                <input class="input" type="text" name="name" placeholder="Enter Your Name"/>
+                <input class="input" type="email" name="email" placeholder="Enter your mail id">
+            </div>
+            <div class="content1">
+                <input class="input"  name="sic" type="text" placeholder="Enter Your Sic"/>
+                <select  class="select" name="year">
+                    <option value="" default>Select your Year</option>
+                    <option value="1" >1st Year</option>
+                    <option value="2" >2nd Year</option>
+                    <option value="3" >3rd Year</option>
+                    <option value="4" >4th Year</option>
+                </select>
+                <select class="select" name="branch">
+                    <option value="" default>Select your Branch</option>
+                    <option value="cse" >Computer Science and Engineering</option>
+                    <option value="ece" >Electronics and Communication Engineering</option>
+                    <option value="cen" >Computer Enginnering</option>
+                    <option value="cst" >Computer Science and Technology</option>
+                    <option value="eee" >Electrical and Electronics  Engineering</option>
+                    <option value="eie" >Electronics and Instrumentation Enginnering</option>
+                    <option value="mtech" >M.Tech</option>
+                    <option value="mca" >MCA</option>
+                    <option value="msc">Msc (Data Science)</option>
+                </select>
+            </div>
+            <div class="content1">
+                <select class="select" name="noofmembers">
+                    <option value="" default>Select number of members in your team</option>
+                    <option value="1" >1</option>
+                    <option value="2" >2</option>
+                    <option value="3" >3</option>
+                    <option value="4" >4</option>
+                </select>
+            </div>
+            
+        </div >
+        <div class="content1" id=buttonContainer>
+        <input type="submit" id="proceed" value="Next to"></input>
+        </div>
+        </form>
+    </div>
+    <div id="bottom1">
+        <div>
+            <div class="circle" >1</div>
+            <div class="line"></div>
+            <div class="circle" id="color-circle">2</div>
+            <div class="line"></div>
+            <div class="circle">3</div>
+        </div>
+    </div>
+</div>

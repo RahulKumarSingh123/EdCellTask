@@ -64,6 +64,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding-top: 50px;
 }
 
 #bottom div {
@@ -72,4 +73,22 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+#proceed {
+    padding: 7px;
+    background-color: #F7982A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins;
+}
+
+#color-circle {
+    background-color: #F7982A;
+    color: white;
+}
+
+#proceed:hover {
+    cursor: pointer;
 }

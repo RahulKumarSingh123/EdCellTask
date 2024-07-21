@@ -20,9 +20,19 @@ function register(req, res) {
 app.get("/", register);
 
 function getteamleader(req, res) {
-    res.render("teamleaderdetails", { content: "teamleaderdetails" });
+    res.render("layout", { content: "teamleaderdetails" });
 }
 app.get("/teamleader", getteamleader);
+
+
+let data = [];
+
+function getEvent(req, res) {
+    data = req.body;
+    res.render("layout", { content: "eventdetails" })
+
+}
+app.post("/eventdetails", getEvent);
 
 app.listen(3050, () => {
     console.log("Server Listening on port 3050");
